@@ -5,7 +5,9 @@ https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-gi
 
 ## List of Activities to be done:
 - Email collection.
-- Sample code for email collection: <script>
+- Sample code for email collection:
+  
+          "<script>
         // Function to prompt for email and save to CSV
         function promptEmail() {
             // Show a prompt for email input
@@ -36,4 +38,4 @@ https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-gi
 
         // Show the popup when the page loads
         window.onload = promptEmail;
-    </script>
+    </script>"
