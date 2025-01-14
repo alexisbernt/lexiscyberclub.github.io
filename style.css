@@ -19,6 +19,83 @@
     border-radius: 50%;
     height: 100px;
 }
+/* General styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: lightblue; /* Set the background color */
+}
+
+/*-----------------------------------------------Nav Bar Styling-----------------------------------------------
+/* Navigation Bar container styling */
+.navbar {
+    display: none; /* Hide this div if it's not being used */
+}
+
+/* Left-side navigation menu */
+.nav_menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #ffffff; /* Set the menu background color to white */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    padding-top: 20px;
+}
+
+/* Navigation menu items */
+.nav_menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav_menu ul li {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.nav_menu ul li img {
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+.nav_menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.nav_menu ul li a:hover {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+/* -------------------------------Hamburger button styling -------------------------------*/
+.hamburger_button {
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    display: none; /* Can be enabled for smaller screens */
+}
+
+/* Media query for responsive design */
+@media screen and (max-width: 768px) {
+    .hamburger_button {
+        display: block; /* Show hamburger button for the smaller screens */
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+
+    .nav_menu {
+        width: 200px;
+    }
+}
 
 /*-----------------------------------------------Description and google form stuffs-----------------------------------*/
 /*Main container holding the description and feedback containers*/
