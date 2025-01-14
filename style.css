@@ -1,5 +1,3 @@
-
-
 /*-----------------------------------------------Header stuffs--------------------------------------------------------*/
 /*header container*/
 .header-div {
@@ -18,7 +16,10 @@
     background: #c9c9c9;
     border-radius: 50%;
     height: 100px;
+    width: 100px; /* Explicit width */
+    /* aspect-ratio: 1 / 1; Uncomment if needed */
 }
+
 /* General styling */
 body {
     margin: 0;
@@ -26,8 +27,7 @@ body {
     background-color: lightblue; /* Set the background color */
 }
 
-/*-----------------------------------------------Nav Bar Styling-----------------------------------------------
-
+/*-----------------------------------------------Nav Bar Styling-----------------------------------------------*/
 /* Navigation menu (hidden by default) */
 .nav_menu {
     position: fixed;
@@ -85,13 +85,13 @@ body {
     left: 0; /* Slide menu into view */
 }
 
-}
 /*-----------------------------------------------Description and google form stuffs-----------------------------------*/
 /*Main container holding the description and feedback containers*/
 .about-us-feedback-div {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 20px; /* Adds spacing between items */
 }
 
 /*container for the about us section*/
@@ -115,7 +115,6 @@ body {
 .about-us-images {
     display: flex;
     justify-content: center;
-
 }
 
 /*Each individual image in the about us section*/
