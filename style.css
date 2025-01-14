@@ -20,7 +20,7 @@
     /* aspect-ratio: 1 / 1; Uncomment if needed */
 }
 
-/* General styling */
+/*------------------------------------------- General styling --------------------------------------------*/
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -28,6 +28,7 @@ body {
 }
 
 /*-----------------------------------------------Nav Bar Styling-----------------------------------------------*/
+
 /* Navigation menu (hidden by default) */
 .nav_menu {
     position: fixed;
@@ -39,6 +40,7 @@ body {
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
     padding-top: 20px;
     transition: left 0.3s ease; /* Smooth slide-in effect */
+    z-index: 1000;
 }
 
 /* Navigation menu items */
@@ -78,13 +80,14 @@ body {
     cursor: pointer;
     padding: 10px;
     display: inline-block;
+    position: relative;
+    z-index: 1100; /* Ensure it's above other elements */
 }
 
 /* Show menu when checkbox is checked */
 #menu_toggle:checked ~ .nav_menu {
     left: 0; /* Slide menu into view */
 }
-
 /*-----------------------------------------------Description and google form stuffs-----------------------------------*/
 /*Main container holding the description and feedback containers*/
 .about-us-feedback-div {
