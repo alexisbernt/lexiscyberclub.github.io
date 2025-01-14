@@ -27,12 +27,6 @@ body {
 }
 
 /*-----------------------------------------------Nav Bar Styling-----------------------------------------------
-/* General styling */
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: lightblue; /* Set background color */
-}
 
 /* Navigation menu (hidden by default) */
 .nav_menu {
@@ -91,11 +85,6 @@ body {
     left: 0; /* Slide menu into view */
 }
 
-/* Media query for responsive design */
-@media screen and (max-width: 768px) {
-    .nav_menu {
-        width: 200px;
-    }
 }
 /*-----------------------------------------------Description and google form stuffs-----------------------------------*/
 /*Main container holding the description and feedback containers*/
