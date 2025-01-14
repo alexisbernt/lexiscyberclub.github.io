@@ -2,65 +2,103 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="../styling/style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+    <title>Lexi's Cyber Club</title>
 </head>
 <body>
 
-<!--Container to hold the company title and logo----------------------------------------------------------------------->
-<div class="header-div">
-    <img src="../images/LCClogo.png" alt="Logo" class="logo">
-    <h1>Company Name</h1>
+<!--Navigation Bar----------------------------------------------------------------------------------------------------->
+<div class="navbar">
+    <a class="hamburger_button">≡</a>
+    <img src="./images/LCClogo.png" alt="Logo">
+    <input type="checkbox"> <!--Hidden check button behind hamburger menu-->
 </div>
 
-<!--Container to hold the description and google form links------------------------------------------------------------>
-<div class="about-us-feedback-div">
+<!--Navigation Bars Menu------------------------------------------------------>
+<nav class="nav_menu">
+    <ul>
+        <li><img src="./images/LCClogo.png" alt="Logo"></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Coming</a></li>
+        <li><a href="">Connect with me!</a></li>
+    </ul>
+</nav>
 
-    <!--container for the description----------------------------------------->
-    <div class="about-us-div">
-        <h2 class="about-us-header">About</h2>
-        <div class="about-us-images">
-            <img src="../images/ProfessionalHeadShot.png" alt="Alexis Image" class="about-us-img">
-         </div>
-        <p class=about-us">Join me in Cyber Club today!</p>
-
-    </div>
-
-    <!--container for the google form links----------------------------------->
-   <!-- <div class="feedback-div">
-       <!--  <h2 class="feedback-header">Your feedback is appreciated</h2>
-       <!--  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc5IS0wGWy6O2y7KL4DUAU3egzq9ULkTz5br8zSXYzsxaM9eg/viewform?embedded=true" width="640" height="2252" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-       <!--  <a class="feedback" href="https://forms.gle/sJEqTZ6nkB1KMH7T6">Google Form</a>
-
-    <!-- </div>
-
+<main>
+<!--Container to hold the company title and logo----------------------------------------------------------------------->
+<div class="header-div">
+    <img src="./images/LCClogo.png" alt="Logo" class="logo">
+    <h1>A Club to be Cyber Savvy</h1>
 </div>
 
 <!--all the example pictures and descriptions-------------------------------------------------------------------------->
     <ul class="demo-list">
-        <li><div class="demo">
-            <img src="../images/back2.png" alt="demo screenshot 1" class="demo-screenshot">
+    <li>
+        <div class="demo">
             <p class="demo-description">
-                Start here! 
+                About: Hi, I'm Lexi. Join me for Cyber Club where I post learnings about cybersecurity, computer science, artificial intelligence, and more!
             </p>
+                <img src="./images/ProfessionalHeadShot.png" alt="action" class="demo-screenshot" onerror="this.src='intro1.png'">
+        </div>
+    </li>
+
+    <li>
+        <div class="demo">
+            <p class="demo-description">
+                    Here is a demo descriptor  
+                </p>
+        </div>
+    </li>
+
+    <li>
+        <div class="demo">
+            <img src="./images/backrnd.pmg" alt="action" class="demo-screenshot" onerror="this.src='intro1.png'">
+            <p class="demo-description">
+                    Check out some sneak-peaks below! 
+                </p>
+        </div>
+    </li>
+                    
+        <li><div class="demo">
+            <p class="demo-description">
+                Start here! <br> This is the starting screen. 
+            </p>
+            <img src="./back2.png" alt="demo screenshot 1" class="demo-screenshot">
         </div></li>
 
-        <li><div class="demo">
-            <img src="../imagesback2.png" alt="demo screenshot 2" class="demo-screenshot, double-demo-screenshot">
-            <img src="../images/backrnd.png" alt="demo screenshot 3" class="demo-screenshot, double-demo-screenshot">
-            <p class="demo-description">
-                Describe
-            </p>
-        </div></li>
 
-        <li><div class="demo">
-            <img src="../images/LCClogo.png" alt="demo screenshot 5" class="demo-screenshot">
-            <p class="demo-description">
-                Here here her
-            </p>
-        </div></li>
+<!--Container to hold the description and google form links------------------------------------------------------------>
+<!--     <div class="about-us-feedback-div"> -->
+
+    <!--container for the description----------------------------------------->
+    <div class="about-us-div">
+        <h2 class="about-us-header">About Me</h2>
+        <div class="about-us-images">
+            <img src="ProfessionalHeadShot.png" alt="Alexis Image" class="about-us-img">
+        </div>
+        <p class=about-us">Please reach out! <br> Email: alexisbernthal4@gmail.com. </p>
+
+    </div>
+
+<!--     <!--container for the github page link----------------------------------->
+    <div class="access-div">
+        <h2 class="access-header">We coded this website. <br>The code for how this website was made is fully avaliable:</h2>
+        <a class="access-div" href="https://github.com/alexisbernt/TheraText">TheraText Website GitHub</a>
+
+    </div> -->
+
+<!--     <!--container for the google form links----------------------------------->
+    <div class="feedback-div">
+        <h2 class="feedback-header">Your feedback is appreciated</h2>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc5IS0wGWy6O2y7KL4DUAU3egzq9ULkTz5br8zSXYzsxaM9eg/viewform?embedded=true" width="640" height="2252" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <a class="feedback" href="https://forms.gle/sJEqTZ6nkB1KMH7T6">Google Form</a>
+
+    </div> -->
+
+</div>
 
     </ul>
-
+</main>
 </body>
 </html>
